@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" name="author" content="Daniel Lee 100517557" />
+	<title>COMP 3123 Lab1 Outputs</title>
+    <script src="lab1_script.js"></script>
+
+</head >
+<body>
+	<p id="lab1"></p>
+	<script>
+		document.getElementById("lab1").innerHTML += "<br>" + capitalizeWords("the quick brown fox");
+		document.getElementById("lab1").innerHTML += "<br>" + capitalizeWords(" brandd new course course ");
+		document.getElementById("lab1").innerHTML += "<br>" + capitalizeWords("brandd new course course x");
+		document.getElementById("lab1").innerHTML += "<br>" + findLargestInteger(1, 0, 1);
+		document.getElementById("lab1").innerHTML += "<br>" + findLargestInteger(0, -10, -20);
+		document.getElementById("lab1").innerHTML += "<br>" + findLargestInteger(1000, 510, 440);
+		document.getElementById("lab1").innerHTML += "<br>" + moveLastLettersToStart("Python");
+		document.getElementById("lab1").innerHTML += "<br>" + moveLastLettersToStart("JavaScript");
+		document.getElementById("lab1").innerHTML += "<br>" + moveLastLettersToStart("Hi");
+		document.getElementById("lab1").innerHTML += "<br>" + returnAngleType(47);
+		document.getElementById("lab1").innerHTML += "<br>" + returnAngleType(90);
+		document.getElementById("lab1").innerHTML += "<br>" + returnAngleType(145);
+		document.getElementById("lab1").innerHTML += "<br>" + returnAngleType(180);
+	</script>
+
+</body>
+</html>
